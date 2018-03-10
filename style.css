@@ -1,0 +1,19 @@
+body, html {    
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.navBar {
+   height: 50px;
+    background-color: #77b7e9;
+    width: 100%;
+    top: 0px;
+    text-align: center;
+    font-family: 'Helvetica';
+    vertical-align: middle;
+}
+
+.loginBlock {
+    margin: auto;
+    
+}
