@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 body, html {    
     margin: 0 !important;
     padding: 0 !important;
 }
 
 .navBar {
-   height: 50px;
+    height: 50px;
     background-color: #77b7e9;
     width: 100%;
     top: 0px;
@@ -14,11 +13,57 @@ body, html {
     vertical-align: middle;
 }
 
+.navLinks {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    float: right;
+    grid-gap: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.navLinks a {
+    text-decoration: none;
+  
+}
+
 .loginBlock {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-grid;
+    position: absolute;
+    top:0;
+    margin-top: 10%;
+    left: 0;
+    right: 0;
+
     
 }
-=======
+
+.inputStyle {
+    border: 1px solid #77b7e9;
+}
+
+.gap {
+    margin-top: 20px;
+}
+
+.signInButton {
+    background-color:#77b7e9;
+    padding: 10px 20px;
+    margin: 20px 0px; 
+}
+
+.cancelButton {
+    background-color: white;
+    padding: 10px 20px;
+    border: 1px solid #77b7e9;
+}
+
 /* W3.CSS 4.10 February 2018 by Jan Egil and Borge Refsnes */
 
 html {
@@ -1935,4 +1980,3 @@ a {
 .show {
     display: block;
 }
->>>>>>> aafea3de432f6690f0762acc7d6e8abb825649d7
