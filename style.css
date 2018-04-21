@@ -54,13 +54,29 @@ body, html {
 
 .signInButton {
     background-color:#77b7e9;
-    padding: 10px 20px;
-    margin: 20px 0px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 250px;
+    /* center to center of page */
+    position: relative;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
 }
 
 .cancelButton {
     background-color: white;
     padding: 10px 20px;
+    border: 1px solid #77b7e9;
+    
+}
+
+.loginButton {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 250px;
     border: 1px solid #77b7e9;
 }
 
